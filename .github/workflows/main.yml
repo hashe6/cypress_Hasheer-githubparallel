@@ -17,6 +17,8 @@ jobs:
 
       - name: Install Packages
         run:  npm install
+      - name: Install cypress
+        run: yarn cypress install --force
       - name: Cypress run
         run:  npx cypress run --env allure=true --spec $(node cypress-parallel.js ${{ matrix.containers }} 5)
       
