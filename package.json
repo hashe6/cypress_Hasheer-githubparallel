@@ -14,7 +14,7 @@
   "author": "Hasna",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^12.13.0",
+    "cypress": "^12.14.0",
     "cypress-parallel": "^0.13.0"
   },
   "devDependencies": {
