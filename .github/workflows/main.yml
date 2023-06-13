@@ -3,7 +3,7 @@ on: [push]
 jobs:
   job1:
     name: cypress-run
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     strategy:
             fail-fast: false
             matrix:
@@ -24,7 +24,7 @@ jobs:
   job2:
     name: reports
     if: always()
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     needs: job1
     steps:
       - name: Download a Build Artifact
