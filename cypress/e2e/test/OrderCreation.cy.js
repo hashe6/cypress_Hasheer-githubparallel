@@ -28,7 +28,7 @@ describe('TestSuite', function () {
         CheckOutMethods.PlaceCOD();
         // Confirm the order and complete the checkout process
         OrderConfirmationMethods.orderConfirm();
-        // Retrieve and display the order number
+        // Retrieve and display the order number 
         OrderConfirmationMethods.OrderNum();
 
     });
