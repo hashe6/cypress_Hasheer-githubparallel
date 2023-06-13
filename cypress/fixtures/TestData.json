@@ -1,0 +1,13 @@
+{
+  "name": "Using fixtures to represent data",
+  "email": "hasna.a@mozanta.com",
+  "password": "Mozanta@123",
+  "ProductName": "Liverpool F.C. 2021/22 Stadium Home Women T-shirts",
+  "AddressTitle": "TestAddress1234",
+  "ContactName": "TestName",
+  "HouseName": "TestHouseName",
+  "AreaName": "TestArea",
+  "TownName": "TestTown",
+  "PostCode": "455445",
+  "MobileNum": "50000009"
+}
