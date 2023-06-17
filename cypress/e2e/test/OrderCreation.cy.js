@@ -32,6 +32,11 @@ describe('TestSuite', function () {
         OrderConfirmationMethods.OrderNum();
 
     });
+    it('PlaceCODOrder2', function () {
+
+        // Login to the application using the provided email and password
+        HomePageMethods.loginApplication(userdata.email, userdata.password);
+    });
 
     before(function () {
         // runs once before all tests in the block
