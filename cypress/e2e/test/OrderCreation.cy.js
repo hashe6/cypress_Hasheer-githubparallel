@@ -33,7 +33,7 @@ describe('TestSuite', function () {
 
     });
     it('PlaceCODOrder2', function () {
-
+        cy.wait(10000)
         // Login to the application using the provided email and password
         HomePageMethods.loginApplication(userdata.email, userdata.password);
     });
