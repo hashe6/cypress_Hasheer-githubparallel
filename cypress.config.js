@@ -6,6 +6,7 @@ module.exports = defineConfig({
   env: {
     //url : 'https://ProductINT:productINT1234@test12345.int.mozcomnonline.com/'
     url : 'https://Product:product1234@ocean.stg.shopsphere.com/'
+
   },
   e2e: {
     setupNodeEvents(on, config) {

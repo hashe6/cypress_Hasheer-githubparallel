@@ -8,7 +8,7 @@ describe('TestSuite', function () {
 
     let userdata;
 
-    it('PlaceCODOrder', function () {
+    it('PlaceCODOrder1', function () {
 
         // Login to the application using the provided email and password
         HomePageMethods.loginApplication(userdata.email, userdata.password);
