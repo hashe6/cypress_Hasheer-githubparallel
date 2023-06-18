@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --env allure=true --reporter mocha-junit-reporter",
+    "test": "npx cypress run",
     "report": "npx allure generate allure-results --clean -o allure-reports",
     "cy:run": "cypress run --reporter mocha-junit-reporter",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 -d cypress/e2e/test",
