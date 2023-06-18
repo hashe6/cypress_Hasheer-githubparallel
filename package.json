@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run",
+    "test": "npx cypress run --reporter mocha-junit-reporter",
     "report": "npx allure generate allure-results --clean -o allure-reports",
     "cy:run": "cypress run --reporter mocha-junit-reporter",
     "cy:parallel": "cypress-parallel -s cy:run -t 2 -d cypress/e2e/test",
     "start": "npm-run-all -p cy:parallel test",
-    "testI": "start-server-and-test start http-get://localhost:3030 cy:run"
+    "testI": "start-server-and-test start http-get://localhost:3030 cy:run",
+    "cypress": "cypress run"
   },
   "author": "Hasna",
   "license": "ISC",
